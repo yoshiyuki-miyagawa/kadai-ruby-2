@@ -1,13 +1,13 @@
 def fizzbuzz(num)
 # 3で割り切れるかつ、5で割り切れるときの処理
     if num % 3 == 0 && num % 5 == 0  
-        return "fizzbuzz"
+        return "Fizzbuzz"
 # 3の倍数のときの処理
     elsif num % 3 == 0
-        return "fizz"
+        return "Fizz"
 # 5の倍数のときの処理
     elsif num % 5 == 0
-        return "buzz"
+        return "Buzz"
 # それ以外のときの処理
     else
         return num
